@@ -1,11 +1,20 @@
+import javax.sound.sampled.SourceDataLine;
+
 public class Exercise_08_07 {
     /** Main method */
     public static void main(String[] args) {
 
         // Initialize array with points
-        double[][] points = { { -1, 0, 3 }, { -1, -1, -1 }, { 4, 1, 1 },
-                { 2, 0.5, 9 }, { 3.5, 2, -1 }, { 3, 1.5, 3 }, { -1.5, 4, 2 },
-                { 5.5, 4, -0.5 } };
+        double[][] points = {
+                { -1, 0, 3 },
+                { -1, -1, -1 },
+                { 4, 1, 1 },
+                { 2, 0.5, 9 },
+                { 3.5, 2, -1 },
+                { 3, 1.5, 3 },
+                { -1.5, 4, 2 },
+                { 5.5, 4, -0.5 }
+        };
 
         // p1 and p2 are the indices in the points' array
         int p1 = 0, p2 = 1, p3 = 3; // Initial two points
@@ -27,15 +36,15 @@ public class Exercise_08_07 {
         }
 
         // Display result
-        System.out.println("The closest two points are " +
-                "(" + points[p1][0] + ", " + points[p1][1] + ") and (" +
-                points[p2][0] + ", " + points[p2][1] + ")");
+        System.out.println("The nearest two points are " +
+                "(" + points[p1][0] + ", " + points[p1][1] + ", " + points[p1][2] + ") and (" +
+                points[p2][0] + ", " + points[p2][1] + ", " + points[p2][2] + ")");
     }
 
     /** Compute the distance between two points (x1, y1) and (x2, y2) */
     public static double distance(
             double x1, double y1, double z1, double x2, double y2, double z2) {
         return Math.sqrt(Math.pow(x2 - x1, 2) +
-                Math.pow(y2 - y1, 2) + Math.pow(y2 - y1, 2));
+                Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
     }
 }
