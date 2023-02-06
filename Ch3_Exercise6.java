@@ -1,4 +1,4 @@
-public class Ch2_Exercise6 {
+public class Ch3_Exercise6 {
     /** Main method */
     public static void main(String[] args) {
 
@@ -30,6 +30,7 @@ public class Ch2_Exercise6 {
                 if (shortestDistance > distance) {
                     p1 = i; // Update p1
                     p2 = j; // Update p2
+
                     shortestDistance = distance; // Update shortestDistance
                 }
             }

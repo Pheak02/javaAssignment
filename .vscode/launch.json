@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Ch3_Exercise3",
+            "request": "launch",
+            "mainClass": "Ch3_Exercise3",
+            "projectName": "javaAssignment_a5489ea9"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
