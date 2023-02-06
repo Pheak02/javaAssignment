@@ -1,9 +1,9 @@
-public class Exercise6 {
+public class Ch2_Exercise6 {
     /** Main method */
     public static void main(String[] args) {
 
         // Initialize array with points
-        double[][] points = {
+        double[][] points = { // declear 2D arr.
                 { -1, 0, 3 },
                 { -1, -1, -1 },
                 { 4, 1, 1 },
@@ -18,12 +18,14 @@ public class Exercise6 {
         int p1 = 0, p2 = 1, p3 = 3; // Initial two points
         double shortestDistance = distance(points[p1][0], points[p1][1], points[p1][2],
                 points[p2][0], points[p2][p1], points[p3][p2]); // Initialize shortest Distance
+        // think whether I can initialize any other value or not.
 
         // Compute distance for every two points
         for (int i = 0; i < points.length; i++) {
             for (int j = i + 1; j < points.length; j++) {
                 double distance = distance(points[i][0], points[i][1], points[i][2],
                         points[j][0], points[j][1], points[j][2]); // Find distance
+                // trick: Look at the size of the arr
 
                 if (shortestDistance > distance) {
                     p1 = i; // Update p1
