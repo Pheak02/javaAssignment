@@ -39,7 +39,8 @@ class Exercise12 {
                 i++;
             }
             String quad = binary.substring(i, i + 4);
-            hexa += hexa_digits.charAt(Arrays.asList(quad_array).indexOf(quad));
+            hexa += hexa_digits.charAt(Arrays.asList(quad_array).indexOf(quad)); // arr has no method indexOf(), except
+                                                                                 // add arr.AsList
         }
 
         System.out.print(hexa);
