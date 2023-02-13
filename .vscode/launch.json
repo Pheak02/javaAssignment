@@ -1,125 +1,139 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise8",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise8",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise7",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise7",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise5",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise5",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise4",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise4",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise6",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise6",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise1",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise1",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise2",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise2",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch3_Exercise3",
-            "request": "launch",
-            "mainClass": "Ch3_Exercise3",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "name": "Java",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ]
-        },
-        {
-            "name": "Java Console App",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ],
-            "externalConsole": true
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch2_Exercise6",
-            "request": "launch",
-            "mainClass": "Ch2_Exercise6",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ch2_Exercise7",
-            "request": "launch",
-            "mainClass": "Ch2_Exercise7",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch DecToHex",
-            "request": "launch",
-            "mainClass": "DecToHex",
-            "projectName": "javaAssignment_a5489ea9"
-        },
-        {
-            "type": "java",
-            "name": "Launch guessingWord",
-            "request": "launch",
-            "mainClass": "guessingWord",
-            "projectName": "javaAssignment_a5489ea9"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise10",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise10",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThreeDArray",
+      "request": "launch",
+      "mainClass": "ThreeDArray",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise8",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise8",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise7",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise7",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise5",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise5",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise4",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise4",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise6",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise6",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise1",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise1",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise2",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise2",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch3_Exercise3",
+      "request": "launch",
+      "mainClass": "Ch3_Exercise3",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch2_Exercise6",
+      "request": "launch",
+      "mainClass": "Ch2_Exercise6",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ch2_Exercise7",
+      "request": "launch",
+      "mainClass": "Ch2_Exercise7",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch DecToHex",
+      "request": "launch",
+      "mainClass": "DecToHex",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Launch guessingWord",
+      "request": "launch",
+      "mainClass": "guessingWord",
+      "projectName": "javaAssignment_a5489ea9"
+    }
+  ]
 }
