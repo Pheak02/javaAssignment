@@ -72,3 +72,9 @@ public class Ch3_Exercise4 { // this program will create a Point class and then 
 		}
 	}
 }
+
+// ANOTHER STYLE FOR LOOPING
+// for (i=0; i<vector.lenght-1, i++)
+// for (int j=j+1; j<vector.length; j++)
+
+// Principle - practice the bubble sort & if y equal -> check the x
