@@ -49,3 +49,6 @@ public class Ch3_Exercise6 {
                 Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
     }
 }
+
+// priciple:
+// store two s
