@@ -11,7 +11,7 @@ public class Ch3_Exercise7 {
             System.out.print("What is the capital city of " + city[i][0] + "? "); // get user input & access arr memo
 
             String s = userGuess.nextLine();
-            if (s.equalsIgnoreCase(city[i][1])) {
+            if (s.equalsIgnoreCase(city[i][1])) { // take up less space than use equalss
                 System.out.println("Wahh! You got the correct answer, CONGRATULATIONS!");
                 correctCount++;
             } else {
