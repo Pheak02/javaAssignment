@@ -37,7 +37,7 @@ public class Ch3_Exercise10 {
                         // totalScore += totalInEach;
 
                     }
-                    // System.out.print(" " + totalInEach);
+                    System.out.print(" " + totalInEach);
                     totalInEach = 0;
                     // System.out.println("Total Score: " + totalScore);
                     // System.out.println("Percentage: " + percentage);
