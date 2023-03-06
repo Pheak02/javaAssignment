@@ -35,7 +35,10 @@ public class Ch4_Exercise8 {
             if (upperCount < numUpperLetters)
                 System.out.println("at least one uppercase letter");
             // can't be anything beside letter & digit
+            if (!Character.isDigit(pw.charAt(0))) {
+                System.out.println("start with a digit");
 
+            }
         }
     }
 }
