@@ -16,8 +16,9 @@ public class Ch4_Exercise8 {
         pwCount = pw.length();
         System.out.println("print number of pw:" + pwCount);
         int i = 0;
-        char ch = pw.charAt(i);
+        char character = pw.charAt(i);
         for (i = 0; i < pwLen; i++) {
+            char ch = pw.charAt(i);
             if (Character.isUpperCase(ch))
                 upperCount++;
             else if (Character.isDigit(ch))
@@ -38,7 +39,7 @@ public class Ch4_Exercise8 {
             // can't be anything beside letter & digit
             if (!Character.isDigit(pw.charAt(0)))
                 System.out.println("start with a digit");
-            if (!Character.isLetterOrDigit(ch))
+            if (!Character.isLetterOrDigit(character))
                 System.out.println("consist of only digits and letters");
         }
     }
