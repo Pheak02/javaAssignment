@@ -19,9 +19,6 @@ class Ch4_Exercise7 {
 
     // method removeSubstring allow parameter "string, substring"
     public static String removeSubstring(String string, String substring) {
-        if (substring.isEmpty()) {
-            return string;
-        }
         String result = string.replaceAll(substring, "");
         return result;
     }
