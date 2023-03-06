@@ -18,8 +18,8 @@ class Ch4_Exercise1 {
 
         for (int i = 2; i <= n / 2; i++) {
 
-            if (n % i == 0)
-                return false; // we dont want even number
+            if (n % i == 0) // because prime can divid with 1 and itsself, so no ramainer
+                return false;
         }
         return true;
     }
