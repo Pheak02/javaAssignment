@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ch4_Exercise1l",
+      "request": "launch",
+      "mainClass": "Ch4_Exercise1l",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Ch4_Exercise1",
+      "request": "launch",
+      "mainClass": "Ch4_Exercise1",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Exercise1",
+      "request": "launch",
+      "mainClass": "Exercise1",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Method05",
+      "request": "launch",
+      "mainClass": "Method05",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Exercise4",
+      "request": "launch",
+      "mainClass": "Exercise4",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Ch4_Exercise4",
+      "request": "launch",
+      "mainClass": "Ch4_Exercise4",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Ch4_Exercise3",
+      "request": "launch",
+      "mainClass": "Ch4_Exercise3",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Exercise3",
+      "request": "launch",
+      "mainClass": "Exercise3",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
       "name": "CheckValidPW",
       "request": "launch",
       "mainClass": "CheckValidPW",
