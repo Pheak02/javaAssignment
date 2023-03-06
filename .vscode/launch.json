@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CheckValidPW",
+      "request": "launch",
+      "mainClass": "CheckValidPW",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
+      "name": "Ch4_Exercise8",
+      "request": "launch",
+      "mainClass": "Ch4_Exercise8",
+      "projectName": "javaAssignment_a5489ea9"
+    },
+    {
+      "type": "java",
       "name": "Launch Ch3_Exercise10",
       "request": "launch",
       "mainClass": "Ch3_Exercise10",
